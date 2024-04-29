@@ -13,6 +13,7 @@ I've downloaded four datasets in excel forms respresenting data from the stores 
 - SQLAlchemy (the Python Library) was used to connect and interact with our database.
 - Seaborn was used to vizualize the data from the database.
 - Apache Aireflow was used to automate our ETL.
+- Tableau Public was used to create the heat map of all customers in the United States. 
 
 Querying the database allowed me to see where the majority of Sport Store's customers live.
 
@@ -25,6 +26,9 @@ This graph can be added to the dashboard to show the amount of customers in the 
 ![customer's graph in top 10 cities](assets/new_location_graph.png)
 
 This heat map can be added to the dashboard to show the amount of total customers in the United States.
+
+> [!WARNING]
+> The heat map is about 90% accurate, but it still provides a reasonable approximation to aid in decision making. 
 
 ![customer's heat map in the United States](assets/new_location_heat_map.png)
 
