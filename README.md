@@ -32,7 +32,7 @@ This heat map can be added to the dashboard to show the amount of total customer
 
 ![customer's heat map in the United States](assets/new_location_heat_map.png)
 
-### Based off the data, Sports Store should build their next branch in Washington DC
+### Based off the data, Sports Store should build their next branch in Washington DC!
 
 Apache Airflow DAGs were created to automate updating the data wearhouse for the companies orders, products, customers, and employees.
 
