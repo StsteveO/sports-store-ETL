@@ -32,6 +32,14 @@ This heat map can be added to the dashboard to show the amount of total customer
 
 ![customer's heat map in the United States](assets/new_location_heat_map.png)
 
+Apache Airflow DAGs were created to automating updating the data wearhouse for the companies orders, products, customers, and employees.
+
+![updated airflow DAGs](assets/updated_DAGs.png)
+
+The remaining 3 databased were automatically uploaded to the data wearhouse via Apache Airflow
+
+![updated data wearhouse](assets/updated_data_warehouse.png)
+
 ## Bugs and Solutions
 
 ### Bug 1
