@@ -12,7 +12,7 @@ I've downloaded four datasets in excel forms respresenting data from the stores 
 
 Querying the database allowed me to see the branch where the majority of Sport Store's customers shop.
 
-![customer database](/home/steveomari62/sports-store-ETL/assets/db_new_location.png)
+![customer database](assets/db_new_location.png)
 
 ## Bugs and Solutions
 
