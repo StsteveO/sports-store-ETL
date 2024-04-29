@@ -1,5 +1,3 @@
-i# Sports Store ETL
-
 ## Summary
 A mock store selling sports equipment requires data-driven help in figuring out where to open their new branch.
 
@@ -11,6 +9,10 @@ I've downloaded four datasets in excel forms respresenting data from the stores 
 - Pandas (the Python library) was used to import, work with, and transform the raw data; cleaning, standardizing, removing duplicates, etc.
 - A PostgreSQL database on ElephantSQL is used to create, read, update, and delete data from the web browser.
 - SQLAlchemy (the Python Library) was used to connect and interact with our database.
+
+Querying the database allowed me to see the branch where the majority of Sport Store's customers shop.
+
+![customer database](/home/steveomari62/sports-store-ETL/assets/db_new_location.png)
 
 ## Bugs and Solutions
 
