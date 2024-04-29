@@ -11,7 +11,8 @@ I've downloaded four datasets in excel forms respresenting data from the stores 
 - Pandas (the Python library) was used to import, work with, and transform the raw data; cleaning, standardizing, removing duplicates, etc.
 - A PostgreSQL database on ElephantSQL is used to create, read, update, and delete data from the web browser.
 - SQLAlchemy (the Python Library) was used to connect and interact with our database.
-- Seaborn was used to vizualize the data from the database
+- Seaborn was used to vizualize the data from the database.
+- Apache Aireflow was used to automate our ETL.
 
 Querying the database allowed me to see where the majority of Sport Store's customers live.
 
@@ -22,6 +23,10 @@ Based off of the data, the majority of Sport Store's customers live in Washingto
 This graph can be added to the dashboard to show the amount of customers in the top 10 cities.
 
 ![customer's graph in top 10 cities](assets/new_location_graph.png)
+
+This heat map can be added to the dashboard to show the amount of total customers in the United States.
+
+![customer's heat map in the United States](assets/new_location_heat_map.png)
 
 ## Bugs and Solutions
 
