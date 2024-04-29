@@ -1,6 +1,8 @@
 ## Summary
 A mock store selling sports equipment requires data-driven help in figuring out where to open their new branch.
 
+The store wants to open the new brach in the city, and state where most of their customers live. 
+
 I've downloaded four datasets in excel forms respresenting data from the stores customers, employees, products, and orders made. 
 
 > [!IMPORTANT]
@@ -9,10 +11,17 @@ I've downloaded four datasets in excel forms respresenting data from the stores 
 - Pandas (the Python library) was used to import, work with, and transform the raw data; cleaning, standardizing, removing duplicates, etc.
 - A PostgreSQL database on ElephantSQL is used to create, read, update, and delete data from the web browser.
 - SQLAlchemy (the Python Library) was used to connect and interact with our database.
+- Seaborn was used to vizualize the data from the database
 
-Querying the database allowed me to see the branch where the majority of Sport Store's customers shop.
+Querying the database allowed me to see where the majority of Sport Store's customers live.
 
 ![customer database](assets/db_new_location.png)
+
+Based off of the data, the majority of Sport Store's customers live in Washington DC. 
+
+This graph can be added to the dashboard to show the amount of customers in the top 10 cities.
+
+![customer's graph in top 10 cities](assets/new_location_graph.png)
 
 ## Bugs and Solutions
 
