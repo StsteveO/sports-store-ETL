@@ -12,7 +12,7 @@ I've downloaded four datasets in excel forms respresenting data from the stores 
 - A PostgreSQL database on ElephantSQL is used to create, read, update, and delete data from the web browser.
 - SQLAlchemy (the Python Library) was used to connect and interact with our database.
 - Seaborn was used to vizualize the data from the database.
-- Apache Aireflow was used to automate our ETL.
+- Apache Airflow was used to automate our ETL.
 - Tableau Public was used to create the heat map of all customers in the United States. 
 
 Querying the database allowed me to see where the majority of Sport Store's customers live.
@@ -32,7 +32,9 @@ This heat map can be added to the dashboard to show the amount of total customer
 
 ![customer's heat map in the United States](assets/new_location_heat_map.png)
 
-Apache Airflow DAGs were created to automating updating the data wearhouse for the companies orders, products, customers, and employees.
+> <strong>Based off the data, Sports Store should build their next branch in Washington DC</strong>
+
+Apache Airflow DAGs were created to automate updating the data wearhouse for the companies orders, products, customers, and employees.
 
 ![updated airflow DAGs](assets/updated_DAGs.png)
 
@@ -44,9 +46,9 @@ The remaining 3 databased were automatically uploaded to the data wearhouse via 
 
 ### Bug 1
 - <ins>Bug</ins>: Extracting the raw data via pandas threw and error
-- <ins>Solution</ins>: Python was missing the openpyxl library; `pip install openpyxl`
+- <ins>Solution</ins>: Python was missing the openpyxl package; `pip install openpyxl`
 
 ### Bug 2
 - <ins>Bug</ins>: Creating a new engine with SQLAlchemy threw and error
-    - <ins>Bug 2b</ins>: Attempting to install the missing psycopg2 library, `pip install psycopg2`, threw another error. This is because psycopg2 requires pg_config from the PostgreSQL development files to be installed in my system.
+    - <ins>Bug 2b</ins>: Attempting to install the missing psycopg2 package, `pip install psycopg2`, threw another error. This is because psycopg2 requires pg_config from the PostgreSQL development files to be installed in my system.
 - <ins>Solution</ins>: Install the binary package psycopg2-binary which does not require compiling; `pip install psycopg2-binary`
